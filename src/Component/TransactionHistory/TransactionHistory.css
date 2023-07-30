@@ -1,0 +1,18 @@
+
+.transaction-history {
+    width: 500px;
+    margin: 30px auto;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 5px, rgba(0, 0, 0, 0.2) 0px 4px 6px;
+}
+
+.transaction-title{
+    background-color: rgb(0, 188, 213)
+}
+
+.transaction-hey {
+text-align: center;
+}
+
+.transaction-hey:nth-child(2n) {
+    background-color: rgb(243, 246, 249);
+}

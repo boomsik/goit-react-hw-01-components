@@ -1,0 +1,44 @@
+.statistics {
+  border: 1px solid rgb(219, 211, 211);
+  width: 350px;
+}
+
+.title {
+  
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.stat-list {
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 350px;
+}
+
+.item {
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 10px;
+  background-color: rgb(63, 168, 168);
+}
+
+.label {
+  font-family: 'Cantarell';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 27px;
+}
+
+.percentage {
+  font-family: 'Cantarell';
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 27px;
+}

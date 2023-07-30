@@ -1,0 +1,92 @@
+.userBody {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 350px;
+    border: 1px solid rgb(219, 211, 211);
+    border-radius: 20px;
+}
+
+
+.userTitle {
+    display: flex;
+   justify-content: center;
+   flex-direction: column;
+    align-items: center;
+    
+}
+.userPreTitle {
+    margin-bottom: 10px;
+}
+
+
+.userTag {
+margin-bottom: 10px;
+}
+
+.userLocal {
+margin-bottom: 10px;
+}
+
+.blockImg{
+    margin: 15px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px inset rgb(241, 241, 231);
+}
+
+.userImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.userPreTitle{
+    color: black; 
+    font-family: 'Cantarell';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 27px;
+
+}
+
+
+.statisticList {
+border-top: 1px solid rgb(211, 211, 211);
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+    border-radius: 0 0 19px 19px;
+}
+
+.statisticItem {
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 100%;
+}
+
+.statisticItem:first-child {
+border-right: 1px solid rgb(211, 211, 211);
+}
+
+.statisticItem:last-child{
+border-left: 1px solid rgb(211, 211, 211);
+}
+
+.itemText {
+    margin-bottom: 10px;
+color: rgb(155, 152, 149);
+}
+
+.itemData{
+    color: black;
+        font-family: 'Cantarell';
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 27px;
+}

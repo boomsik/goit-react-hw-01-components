@@ -1,5 +1,5 @@
 
-import User from '../Component/UserFolder/User';
+import User from '../Component/User/User';
 import Statistics from '../Component/Statistics/Statistics';
 import './App.css';
 import user from '../data/user.json';
